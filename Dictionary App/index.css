@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f4fdff;
+    max-height: 100vh;
+}
+header{
+    background-color: #061e45;
+    color: #f4fdff;
+    padding: 5px 50px;
+    text-align: center;
+}
+.main {
+    background-color: #f4fdff;
+    max-height: 100vh;
+    padding-bottom: 500px;
+}
+
+.main h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container-one {
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+}
+.query {
+    background-color: #f4fdff;
+    margin-top: 1%;
+    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.query button {
+border: none;
+background: #061e45;
+color: aliceblue;
+border-radius: 2rem;
+outline: none;
+width: 12%;
+padding: 5px 5px;
+font-size: 20px;
+cursor: pointer;
+}
+.query input{
+    border: none;
+    border-bottom: 1px solid #061e45;
+    outline: none;
+    font-size: 17px;
+    width: 70%;
+    background-color: #f4fdff;
+}
+.result {
+    position: relative;
+    color: #061e45;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    
+}
+.result .example {
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 3%;
+padding-bottom: 1%;
+display: flex;
+justify-content: space-between;
+margin-top: 0;
+}
+
+.result h3 {
+    font-size: 22px;
+    font-family: cursive;
+}
+.example button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+.result .details {
+padding-left: 5%;
+padding-right: 5%;
+display: flex;
+font-size: 16px;
+}
+#transcribe {
+    padding-left: 3%;
+}
+.meaning {
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 4%;
+padding-bottom: 1%;
+}
+#word-sentence {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+#dot {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+}
+.err {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width: 768px){
+    #title {
+        padding: 7px 50px;
+    }
+    .main h2 {
+        font-size: 25px;
+    }
+    .query {
+        background-color: #f4fdff;
+        margin-top: 6%;
+        margin-bottom: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .query button {
+        border: none;
+        background: #061e45;
+        color: aliceblue;
+        border-radius: 2rem;
+        outline: none;
+        font-size: 17px;
+        cursor: pointer;
+        padding: 5px 10px;
+        width: 30%;
+        }
+        .query input{
+            border: none;
+            border-bottom: 1px solid #061e45;
+            outline: none;
+            font-size: 14px;
+            background-color: #f4fdff;
+            width: 50%;
+            padding-left: 0%;
+            margin-left: 0%;
+        }
+}
